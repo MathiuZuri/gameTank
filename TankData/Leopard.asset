@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a853b7611344842aaf3a8e93abaef3, type: 3}
+  m_Name: Leopard
+  m_EditorClassIdentifier: 
+  tankID: Leopard
+  tankName: Leopard 2
+  playerVisuals:
+    baseSprite: {fileID: 21300000, guid: 5d804e5758703e3428de95566c72e74f, type: 3}
+    turretSprite: {fileID: 21300000, guid: 4ba860d0382b92345b4b88b2e2a8b098, type: 3}
+  enemyVisuals:
+    baseSprite: {fileID: 21300000, guid: 47ada8dc68637904fa2a4f2734f9772f, type: 3}
+    turretSprite: {fileID: 21300000, guid: b45685fc70756c8418c0feb467d06fe9, type: 3}
+  maxHealth: 80
+  fireRate: 5
+  bulletPrefab: {fileID: 497946783522341154, guid: 39a568caf02a95f4d87ed4b7f42d02e9, type: 3}
+  bulletDamage: 10
+  magazineSize: 5
+  reloadTime: 0.6
+  moveSpeed: 6
+  shopPrice: 240

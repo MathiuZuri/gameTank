@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e45217429385c2449aa19cb99311f40, type: 3}
+  m_Name: Crossroads
+  m_EditorClassIdentifier: 
+  mapID: CROSSROADS
+  mapName: Crossroads
+  previewImage: {fileID: 5839820706974066888, guid: 27c00b43f5272774e9cfe98a8b204a6a, type: 3}
+  description: Un cruce abierto de fuego
+  mapRows:
+  - 11111111111
+  - 18000100091
+  - 10000100001
+  - 10000100001
+  - 10002220001
+  - 11122022111
+  - 10002220001
+  - 10000100001
+  - 10000100001
+  - 19000100081
+  - 11111111111

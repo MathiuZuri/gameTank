@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a853b7611344842aaf3a8e93abaef3, type: 3}
+  m_Name: AMX
+  m_EditorClassIdentifier: 
+  tankID: AMX
+  tankName: AMX-2011X
+  playerVisuals:
+    baseSprite: {fileID: 21300000, guid: 9dc6e7c4852e5ab4bba6d2d0ccb21bc7, type: 3}
+    turretSprite: {fileID: 21300000, guid: 031cf203e6817cc41abaf6f676ad4629, type: 3}
+  enemyVisuals:
+    baseSprite: {fileID: 21300000, guid: bbcae76e85a8b0446a3b3a0d109a661a, type: 3}
+    turretSprite: {fileID: 21300000, guid: 95575e5f19917e747b2607433ee3ce2c, type: 3}
+  maxHealth: 140
+  fireRate: 4
+  bulletPrefab: {fileID: 497946783522341154, guid: 39a568caf02a95f4d87ed4b7f42d02e9, type: 3}
+  bulletDamage: 10
+  magazineSize: 15
+  reloadTime: 2.7
+  moveSpeed: 3
+  shopPrice: 270

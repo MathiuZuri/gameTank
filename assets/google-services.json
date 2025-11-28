@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "36296714680",
+    "project_id": "gametank-264e6",
+    "storage_bucket": "gametank-264e6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36296714680:android:19da4f5e4551089074074d",
+        "android_client_info": {
+          "package_name": "com.patsu.gameTank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeMA8a11DNuF9n8s1FL6C7M4w-RBsQkic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

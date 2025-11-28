@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a853b7611344842aaf3a8e93abaef3, type: 3}
+  m_Name: Panzer3
+  m_EditorClassIdentifier: 
+  tankID: Panzer6
+  tankName: Panzer VI Tiger I
+  playerVisuals:
+    baseSprite: {fileID: 21300000, guid: b179a7fb73e2097408904e4f88e25fe0, type: 3}
+    turretSprite: {fileID: 21300000, guid: becae903f02b1cf47968035c895db62a, type: 3}
+  enemyVisuals:
+    baseSprite: {fileID: 21300000, guid: d71dc812ff1c1ce498e159791ed95f49, type: 3}
+    turretSprite: {fileID: 21300000, guid: 7e6ae22144f25424cbec504186a8529d, type: 3}
+  maxHealth: 180
+  fireRate: 4
+  bulletPrefab: {fileID: 497946783522341154, guid: 39a568caf02a95f4d87ed4b7f42d02e9, type: 3}
+  bulletDamage: 15
+  magazineSize: 7
+  reloadTime: 1.4
+  moveSpeed: 4
+  shopPrice: 210

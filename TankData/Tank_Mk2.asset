@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a853b7611344842aaf3a8e93abaef3, type: 3}
+  m_Name: Tank_Mk2
+  m_EditorClassIdentifier: 
+  tankID: mk2
+  tankName: Tanque T-45 MKII
+  playerVisuals:
+    baseSprite: {fileID: 21300000, guid: 9e7dcf9bd03e08c4c837b11a3a83e45d, type: 3}
+    turretSprite: {fileID: 21300000, guid: cb7e5eb0d27b4354bb0948f08a36b49a, type: 3}
+  enemyVisuals:
+    baseSprite: {fileID: 21300000, guid: 3123a72b7eaeb8445abd5aaec9472a41, type: 3}
+    turretSprite: {fileID: 21300000, guid: d7698841cf0114f449dd735e5b31303f, type: 3}
+  maxHealth: 250
+  fireRate: 2
+  bulletPrefab: {fileID: 497946783522341154, guid: 39a568caf02a95f4d87ed4b7f42d02e9, type: 3}
+  bulletDamage: 25
+  magazineSize: 5
+  reloadTime: 2.5
+  moveSpeed: 3
+  shopPrice: 250

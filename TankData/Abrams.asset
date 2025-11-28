@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a853b7611344842aaf3a8e93abaef3, type: 3}
+  m_Name: Abrams
+  m_EditorClassIdentifier: 
+  tankID: Abrams
+  tankName: M1 Abrams
+  playerVisuals:
+    baseSprite: {fileID: 21300000, guid: 3f8e2e3fde840af46abfa47534269428, type: 3}
+    turretSprite: {fileID: 21300000, guid: 0c1baa026c8c85444bccf9c43af69143, type: 3}
+  enemyVisuals:
+    baseSprite: {fileID: 21300000, guid: da90e3eb77ec1a84cac29e02e8b1d22f, type: 3}
+    turretSprite: {fileID: 21300000, guid: 76f176a4ef4501f43b312dbbb5c09909, type: 3}
+  maxHealth: 210
+  fireRate: 2
+  bulletPrefab: {fileID: 497946783522341154, guid: 39a568caf02a95f4d87ed4b7f42d02e9, type: 3}
+  bulletDamage: 20
+  magazineSize: 11
+  reloadTime: 1.8
+  moveSpeed: 4
+  shopPrice: 230

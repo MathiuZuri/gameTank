@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6147e578a0db040b0f30819122d4a1, type: 3}
+  m_Name: GameTankDatabase
+  m_EditorClassIdentifier: 
+  allTanks:
+  - {fileID: 11400000, guid: 3a4c0f4c3bb7e354db32eb74bde5f9e9, type: 2}
+  - {fileID: 11400000, guid: e16668289a158ea478cca014d158fefd, type: 2}
+  - {fileID: 11400000, guid: 5b493f01fb670124daddc1a10b7f9aff, type: 2}
+  - {fileID: 11400000, guid: 57dad960ca3daaf4f99388ee4fca6a63, type: 2}
+  - {fileID: 11400000, guid: 87484b4efee3f8a4795ba5ee91ff4753, type: 2}
+  - {fileID: 11400000, guid: 0eebaf4ae6162564180c7402d3f1cd2c, type: 2}
+  - {fileID: 11400000, guid: 36291457b1ace784ba6519f432e15a3d, type: 2}
+  - {fileID: 11400000, guid: a63e83f167f65a04183bcb6fadd3225e, type: 2}

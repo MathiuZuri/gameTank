@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01a973863f851e4d82a670e73e1152d, type: 3}
+  m_Name: PesosPesados
+  m_EditorClassIdentifier: 
+  difficultyID: pesosPEsados
+  difficultyName: Tanques +
+  icon: {fileID: 2968805789204487186, guid: ec48ec2142c0ae649a3491b815e0a132, type: 3}
+  numberOfEnemiesToSpawn: 5
+  description: Pesados y con alta resistencia
+  enemyTankTypes:
+  - {fileID: 11400000, guid: 36291457b1ace784ba6519f432e15a3d, type: 2}
+  - {fileID: 11400000, guid: 5b493f01fb670124daddc1a10b7f9aff, type: 2}
+  - {fileID: 11400000, guid: a63e83f167f65a04183bcb6fadd3225e, type: 2}
+  numberOfAlliesToSpawn: 2
+  allyTankTypes:
+  - {fileID: 11400000, guid: a63e83f167f65a04183bcb6fadd3225e, type: 2}

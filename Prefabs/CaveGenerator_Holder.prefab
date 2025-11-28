@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3304952465850162829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 948529706791526681}
+  - component: {fileID: 7587680653174114376}
+  m_Layer: 0
+  m_Name: CaveGenerator_Holder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &948529706791526681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304952465850162829}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.306597, y: 7.6018214, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7587680653174114376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304952465850162829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224ab30db49fb424eabbadc60cbacc4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generatorID: __CAVE__
+  displayName: Cuevas Procedural
+  icon: {fileID: 4553252249267855689, guid: 181359bf1f238bd4496b76388d7c04c6, type: 3}
+  description: "Unas cuevsa cl\xE1sico que cambia cada vez."
+  mapWidth: 30
+  mapHeight: 20
+  randomFillPercent: 0.45
+  smoothingIterations: 5
+  wallThreshold: 4
+  openThreshold: 3
+  coverChance: 0.05
+  enemySpawnCount: 25
